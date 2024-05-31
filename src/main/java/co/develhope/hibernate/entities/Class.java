@@ -1,8 +1,15 @@
 package co.develhope.hibernate.entities;
 
 import jakarta.persistence.*;
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
 
 @Entity
+@Table(name = "classes")
+@Data
+@NoArgsConstructor
+@AllArgsConstructor
 public class Class {
 
     @Id
